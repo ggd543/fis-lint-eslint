@@ -1,0 +1,8 @@
+src/scrat/
+lib/
+src/loaders/LegoPageletLoader.js
+src/builders/LegoPageletBuilder.js
+src/fis3/server/
+src/fis3/lib/
+src/fis3/plugins/provide.js
+src/utils/LegoUnitStore.js
