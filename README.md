@@ -4,8 +4,13 @@
 
 A eslint plugin for fis to validate js file
 
-## usage 
- 
+## eslint版本兼容
+
+- 1.x 兼容 eslint 1.x
+- 2.x 兼容 eslint 2.x
+
+## usage
+
 ```javascript
 npm install -g fis-lint-eslint
 ```
@@ -21,7 +26,7 @@ fis.config.set('settings.lint.eslint', {
     //ignored some files
     //ignored : 'static/libs/**.js',
     ignored : [ 'static/libs/**.js', /jquery\.js$/i ],
-    
+
     //jshint options
      "parser": "babel-eslint",
       "env": {
@@ -70,7 +75,7 @@ fis.match('*.js', {
     //ignored some files
     //ignored : 'static/libs/**.js',
     ignored : [ 'static/libs/**.js', /jquery\.js$/i ],
-    
+
     //jshint options
      "parser": "babel-eslint",
       "env": {
